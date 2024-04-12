@@ -11,13 +11,13 @@ body{
    grid-template-rows: 200px auto 100px;
 }
 
-.chapeu{
+header{
    grid-area: cabe;
-   /*background-color: #140141;
+   background-color: #140141;
    text-align: center;
    padding: 50px ;
    font-size: 1.4rem;
-   text-transform: capitalize;*/
+   text-transform: capitalize;
 }
 
 aside{
@@ -25,15 +25,15 @@ aside{
    background-color: #c0c0c0;
 }
 
-.camisa{
+main
+{
    grid-area: prin;
    background-color: #c0c0c0;
 }
 
-.sapato{
+footer{
    grid-area: roda;
    background-color: #000000;
-   text-align: center;
    padding: 40px 80px;
    font-size: 1.4rem;
    background-color: #2c2c2c;
@@ -81,18 +81,6 @@ aside{
    width: 250px;
 }
 
-button :hover{
-   background-color: #000000;
-   color:rgb(250, 212, 0)
-}
-
-button{
-   background-color: #000;
-   border-radius: 30px;
-   width: 100px;
-   height: 50px;
-}
-
 div a{
    color: #f0ffff;
    text-decoration: none;
@@ -134,4 +122,25 @@ div a{
 .logo{
     width: 100px;
     height: 100px;
+}
+
+.contato{
+   width: 10;
+   height: 10;
+}
+
+nav{
+   background-color: #5323ff;
+   padding: 10;
+   text-align: right;
+}
+
+nav a{
+   text-decoration: none;
+   color: #ffffff;
+
+}
+
+#footer_content{
+   background-color: #000002;
 }

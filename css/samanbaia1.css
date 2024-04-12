@@ -1,0 +1,22 @@
+.img{
+    width: 500;
+    height: 200;
+}
+
+body{
+    background-color: rgb(177, 177, 177);
+    text-align: center;
+}
+
+button :hover{
+    background-color: #000000;
+    color:rgb(255, 255, 255);
+    border: solid 2px #f0ffff;
+ }
+ 
+ button{
+    background-color: #ffffff;
+    border-radius: 30px;
+    width: 100px;
+    height: 50px;
+ }
