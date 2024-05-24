@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sua Loja de Plantas - Encontre as melhores plantas para sua casa ou jardim na Verde Vivo.">
+    <title>Verde Vivo - Sua Loja de Plantas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="imagens/slp.png" alt="Verde Vivo Logo">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="banner">
+            <div class="container">
+                <h1>Bem-vindo à Verde Vivo</h1>
+                <p>Encontre as melhores plantas para sua casa ou jardim.</p>
+                <a href="#produtos" class="btn">Nossos Produtos</a>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <div class="container">
+                <h2>Sobre Nós</h2>
+                <p>Somos uma loja especializada em oferecer uma grande variedade de plantas para nossos clientes. Nossa missão é proporcionar bem-estar e beleza através da natureza.</p>
+            </div>
+        </section>
+
+        <section id="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="product">
+                    <img src="imagens/sa.jpeg" alt="samambaia">
+                    <h3>samambaia</h3>
+                    <p>é uma planta legal de se ter em casa, para os malucos de plantão é bom conversar com ela.</p>
+                    <span class="price">R$17,90</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <!-- Outros produtos omitidos para brevidade -->
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para mais informações ou dúvidas.</p>
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Mensagem"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Aside adicionado aqui -->
+        <aside>
+            <div class="container">
+                <h2>Informações Adicionais</h2>
+                <p>Confira nossas últimas promoções!</p>
+                <p>Descontos de até 50% em uma seleção especial de plantas.</p>
+            </div>
+        </aside>
+
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Verde Vivo - Sua Loja de Plantas</p>
+            <div class="social-icons">
+                <a href="#" class="footer-link"><i class="fab fa-facebook" aria-label="Facebook"></i></a>
+                <a href="#" class="footer-link"><i class="fab fa-instagram" aria-label="Instagram"></i></a>
+                <a href="#" class="footer-link"><i class="fab fa-twitter" aria-label="Twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
+
+
+
+
+
+
+<section id="produtos">
+            <div class="container">
+                <h2>Nossos Produtos</h2>
+                <div class="product">
+                    <img src="imagens/sa.jpeg" alt="samambaia">
+                    <h3>samambaia</h3>
+                    <p>é uma planta legal de se ter em casa, para os malucos de plantão é bom conversar com ela.</p>
+                    <span class="price">R$17,90</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/th.jpeg" alt="Gympie ferrão">
+                    <h3>Gympie ferrão</h3>
+                    <p>ótima pra dar pro seu inimigo comer</p>
+                    <span class="price">R$97,50</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/cafe.png" alt="cafeeiro">
+                    <h3>cafeeiro</h3>
+                    <p>café pra quem é viciado comer até o grão</p>
+                    <span class="price">R$750,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/cereja.jpg" alt="cerejeira">
+                    <h3>cerejeira</h3>
+                    <p>as frutas dela você pode por em cima do bolo de niver da sua prima</p>
+                    <span class="price">R$135.000,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/choro.webp" alt="chorão">
+                    <h3>chorão</h3>
+                    <p>é lindo, mas deprimente</p>
+                    <span class="price">R$77,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/cocam.png" alt="Cotoneaster cambricus">
+                    <h3>Cotoneaster cambricus</h3>
+                    <p>você pode ser um dos unicos a ter ela</p>
+                    <span class="price">R$20.000,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/maconha.jpg" alt="cannabis">
+                    <h3>cannabis</h3>
+                    <p>provavelmente você é um professor de filosofia ou geografia</p>
+                    <span class="price">R$1.500,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/monobli.webp" alt="costela de adão">
+                    <h3>costela de adão</h3>
+                    <p>delicada e fragil como um osso</p>
+                    <span class="price">R$23,74</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/pdp.webp" alt="papo de peru">
+                    <h3>papo de peru</h3>
+                    <p>oque imoporta é a beleza interior</p>
+                    <span class="price">R$12,36</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/pita.jpeg" alt="pitangueira">
+                    <h3>pitangueira</h3>
+                    <p>pra que mercado se você pode comer oque planta</p>
+                    <span class="price">R$40,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/posi.jpeg" alt="Posidonia australis">
+                    <h3>Posidonia australis</h3>
+                    <p>é a maior planta do mundo</p>
+                    <span class="price">R$30.000,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <img src="imagens/paubrasil.jpg" alt="pau brasil">
+                    <h3>pau brasil</h3>
+                    <p>uma planta antiga e famosa no brasil.</p>
+                    <span class="price">R$30,00</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco para mais informações ou dúvidas.</p>
+                <form>
+                    <input type="text" placeholder="Nome">
+                    <input type="email" placeholder="Email">
+                    <textarea placeholder="Mensagem"></textarea>
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+            </div>
+        </section>

@@ -47,7 +47,7 @@ main{
 
 aside {
    grid-area: secu;
-   background-color: #ffc107;
+   background-color: #e0e0e0;
    color: #333;
    padding: 20px;
    border-radius: 5px;
@@ -100,43 +100,6 @@ nav ul li {
 nav ul li a {
    text-decoration: none;
    color: #333;
-}
-
-@media screen and (max-width: 768px) {
-   nav {
-       position: relative;
-   }
-
-   nav ul {
-       position: absolute;
-       top: 50px;
-       left: 0;
-       background-color: #f9f9f9;
-       width: 100%;
-       display: none;
-       flex-direction: column;
-   }
-
-   nav ul li {
-       margin: 0;
-       text-align: center;
-   }
-
-   nav input[type="checkbox"] {
-       display: none;
-   }
-
-   nav label {
-       display: block;
-       cursor: pointer;
-       padding: 10px;
-       background-color: #333;
-       color: #fff;
-   }
-
-   nav input[type="checkbox"]:checked + ul {
-       display: flex;
-   }
 }
 
 section {

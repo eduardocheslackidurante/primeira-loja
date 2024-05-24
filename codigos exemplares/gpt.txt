@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verde Vivo - Sua Loja de Plantas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css"> <!-- Seu arquivo CSS personalizado -->
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <img class="logo" src="imagens/logo.png" alt="Verde Vivo Logo">
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#produtos">Produtos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="banner">
+        <div class="container">
+            <h1>Bem-vindo à Verde Vivo</h1>
+            <p>Encontre as melhores plantas para sua casa ou jardim.</p>
+            <a href="#produtos" class="btn">Nossos Produtos</a>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Somos uma loja especializada em oferecer uma grande variedade de plantas para nossos clientes. Nossa missão é proporcionar bem-estar e beleza através da natureza.</p>
+        </div>
+    </section>
+
+    <section id="produtos">
+        <div class="container">
+            <h2>Nossos Produtos</h2>
+            <!-- Aqui você pode listar seus produtos -->
+            <div class="product">
+                <img src="imagens/planta1.jpg" alt="Planta 1">
+                <h3>Nome da Planta 1</h3>
+                <p>Descrição da planta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">R$ XX,XX</span>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <div class="product">
+                <img src="imagens/planta2.jpg" alt="Planta 2">
+                <h3>Nome da Planta 2</h3>
+                <p>Descrição da planta. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <span class="price">R$ XX,XX</span>
+                <a href="#" class="btn">Comprar</a>
+            </div>
+            <!-- Adicione mais produtos conforme necessário -->
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco para mais informações ou dúvidas.</p>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="Email">
+                <textarea placeholder="Mensagem"></textarea>
+                <button type="submit" class="btn">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Verde Vivo - Sua Loja de Plantas</p>
+            <div class="social-icons">
+                <a href="#" class="footer-link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="footer-link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="footer-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -35,12 +35,19 @@
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    background-color: #007bff;
+    background-color: #28a745;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
 }
 
 .btn-submit:hover {
-    background-color: #0056b3;
+    background-color: #ced102;
+}
+
+body{
+    background-color: #28a745;
+    background-image: url(../imagens/papel\ de\ parede.jpg);
+    background-size: cover;
+    background-position: left center;
 }
