@@ -6,7 +6,6 @@
 }
 
 .form-cadastro {
-    width: 300px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -15,6 +14,7 @@
 
 .form-group {
     margin-bottom: 15px;
+    width: 300px;
 }
 
 .form-group label {
@@ -23,7 +23,7 @@
 }
 
 .form-group input {
-    width: 100%;
+    width: 280px;
     padding: 8px;
     border: 1px solid #ccc;
     border-radius: 3px;
