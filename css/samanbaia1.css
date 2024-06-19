@@ -5,9 +5,28 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    display: grid;
+   grid-template-areas: 
+   "cabe cabe cabe"
+   "prin prin prin"
+   "roda roda roda";
+   grid-template-columns: 1fr 2fr 2fr;
+   grid-template-rows: auto auto auto;
+   font-family: Arial, sans-serif;;
     line-height: 1.6;
+
 }
+
+@media only screen and (max-width: 800px){
+    body{
+        grid-template-areas: 
+        "cabe"
+        "prin"
+        "roda";
+        grid-template-columns: 1fr;
+        
+    }
+ }
 
 .container {
     max-width: 1200px;
@@ -19,6 +38,7 @@ header {
     background-color: #003300;
     color: #ffffff;
     padding: 20px 0;
+    grid-area: cabe;
 }
 
 header .container {
@@ -45,6 +65,7 @@ header nav ul li a {
 
 main {
     padding: 20px 0;
+    grid-area: prin;
 }
 
 .product-details {
@@ -96,6 +117,7 @@ footer {
     padding: 20px 0;
     text-align: center;
     height: 100%;
+    grid-area: roda;
 }
 
 footer .social-icons {

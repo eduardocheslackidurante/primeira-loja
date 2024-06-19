@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 
+    "cabe cabe cabe"
+    "prin prin prin"
+    "roda roda roda";
+    grid-template-columns: 1fr 2fr 2fr;
+    grid-template-rows: auto auto auto;
+    font-family: Arial, sans-serif;
+    background-color: #e0e0e0;
+    color: #333;
+ }
+ 
+ @media only screen and (max-width: 400px){
+    body{
+        grid-template-areas: 
+        "cabe"
+        "prin"
+        "roda";
+        grid-template-columns: 1fr;
+        
+    }
+ }
+
+header{
+    background-color: #186127;
+    color: white;
+    font-size: 30px;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+    grid-area: cabe;
+}
+main{
+    background-color: white;
+    grid-area: prin;
+}
+
+main .title{
+    font-size: 40px;
+    padding: 50px 0;
+    text-align: center;
+}
+main .content{
+    display: flex;
+
+}
+
+main section{
+    /*isso faz que o elemento section assuma o maximo de largura que ele consegue no flexbox*/
+    flex: 1;
+}
+
+main aside{
+    background-color: white;
+    min-width: 250px;
+}
+
+table{
+    width: 100%;
+    /*border-collapse determina se tem espaçamento entre as bordas da tabela*/
+    border-collapse: collapse;
+}
+
+table thead tr{
+    border-bottom: 3px solid #ddd;
+}
+
+table thead tr th{
+    text-align: left;
+    padding-bottom: 10px;
+    /* deixa maiusculo*/
+    text-transform: uppercase;
+    color: #666;
+}
+
+table tbody tr{
+    border-bottom: 3px solid #ddd;
+}
+
+
+table tbody tr td{
+    padding: 20px 0;
+}
+
+.produto{
+    display: flex;
+    align-items: center;
+    margin-left: 0.752rem;
+}
+
+.produto .info{
+    margin-left: 20px;
+}
+
+.produto .info .nome{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.produto .info .cor{
+    color:#666
+}
+
+.quantidade{
+    background: #ccc;
+    display: inline-flex;
+    padding: 5px 0;
+    justify-content: space-around;
+    min-width:60px;
+    border-radius: 15px;
+}
+
+
+.delete{
+    background: #ccc;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.delete:hover{
+    background: #666;
+}
+
+
+aside .box{
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    background: #ddd;
+}
+
+aside .cabe{
+    background-color: white;
+    padding: 15px 20px;
+    color: black;
+    font-size: 18px;
+    border-bottom: 1px solid #ccc;
+}
+
+aside .info{
+    padding: 20px;
+}
+
+aside .info div{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+aside footer{
+    padding: 15px 20px;
+    background: #ccc;
+    font-size: 18px; 
+}
+
+
+
+aside button{
+    border: 0;
+    padding: 15px 0;
+    color: white;
+    background: #0597F2;
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+aside button:hover{
+    background-color:#04D9D9;
+}
+
+footer{
+    grid-area: roda;
+}

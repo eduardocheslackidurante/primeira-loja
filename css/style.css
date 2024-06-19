@@ -207,7 +207,7 @@ footer {
         top: 0;
         right: -100%;
         z-index: 100;
-        background-color: var(--color2);
+        background-color: #039c03;
         transition: all 0.2s ease-in-out;
     }
     .menu li {
@@ -267,4 +267,7 @@ h2 {
    background-color: #218838;
 }
 
-
+html,
+body{
+   scroll-behavior: smooth;
+}
